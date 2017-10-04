@@ -1,0 +1,8 @@
+timestamp,temperature,colour,select_b,yes_no
+03/10/2017 16:30:56,24,Red,B,Yes
+03/10/2017 16:31:20,21,Green,B,Maybe
+03/10/2017 16:31:35,28,Green,B,No
+03/10/2017 17:04:50,24.3,Cyan,A,Yes
+03/10/2017 17:05:05,Warmish,Magenta,B,Maybe
+03/10/2017 17:05:22,1,Yellow,B,No
+03/10/2017 17:17:03,12,Red,B,No
