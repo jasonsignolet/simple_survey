@@ -1,7 +1,7 @@
 #### Lesson 1.1: Download survey ----
 ## Download the survey hosted on
 ## "https://docs.google.com/spreadsheets/d/1A4lIT_MPjTk7dv3-26mYlFpxdwnPFbkssrgz3Mv6yvw/edit#gid=384569321"
-## and save it to csv.
+## and save it to csv
 
 library(googlesheets)
 library(magrittr)
@@ -27,5 +27,5 @@ survey_key %>%
   gs_read(ws = "Form responses 1") %>%
   setDT %>%
   setnames(c("timestamp", "temperature", "colour", "select_b", "yes_no")) %>%
-  fwrite(sprintf("survey_responses_%s.csv", timestring))
+  fwrite(sprintf("data/survey_responses_%s.csv", timestring))
 

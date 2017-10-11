@@ -6,7 +6,7 @@ library(magrittr)
 library(ggplot2)
 
 ## Load the survey ----
-survey <- fread("survey_responses_20171004145706.csv")
+survey <- fread("data/survey_responses_20171011121500.csv")
 
 survey[]
 
